@@ -5,10 +5,11 @@ public class App {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("MENSAJE DE PRUEBA PARA VERIFICAR CONEXION CON GITHUB");
+        //System.out.println("MENSAJE DE PRUEBA PARA VERIFICAR CONEXION CON GITHUB");
 
         int opcion;
         do {
+        	System.out.println("          MENU");
             System.out.println("Seleccione una operacion:");
             System.out.println("1. Calcular area de un circulo");
             System.out.println("2. Calcular area de un cuadrado");
